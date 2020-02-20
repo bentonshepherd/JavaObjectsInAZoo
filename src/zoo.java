@@ -14,7 +14,11 @@ public class zoo {
         Bee stinger = new Bee ("Stinger");
         stinger.eat("pollen");
         stinger.sleep();
+        Animal[] a = {tigger, pooh, rarity, gemma, stinger};
+        Zookeeper abe = new Zookeeper("Abe");
+        abe.feedAnimals(a, "meat");
     }
+
 
 //    String favoriteFood = "bacon";
 //

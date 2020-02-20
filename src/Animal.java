@@ -1,10 +1,13 @@
 class Animal {
     public String name;
     public String favoriteFood;
+    public static int population = 0;
+
 
     public Animal(String name, String favoriteFood) {
         this.name = name;
         this.favoriteFood = favoriteFood;
+        population++;
     }
 
     public void sleep() {
